@@ -42,5 +42,4 @@ for obj in bpy.context.scene.objects:
             invalid_columns += 1
 
 # Output the results
-print(f"Total Columns: {total_columns}")
-print(f"Columns Not Fitting Requirements: {invalid_columns}")
+print(f"Columns outside the given dimensions: {invalid_columns}")
