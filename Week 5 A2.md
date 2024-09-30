@@ -1,21 +1,21 @@
-A2:
-    A2a: About your group
-    I am confident coding in Python: 
-            1-Disagree
-        What is your group’s focus area? 
-            Built
-        Is you focus area keeping the manager role? 
-            Yes
-        Are you an analyst or a manager?
-            Analyst
+A2:  
+    A2a: About your group  
+    I am confident coding in Python:  
+            1-Disagree  
+        What is your group’s focus area?  
+            Built  
+        Is you focus area keeping the manager role?  
+            Yes  
+        Are you an analyst or a manager?  
+            Analyst 
 
-    A2b: Identify Claim 
-    We are working on building building 2411. 
-         We want to identify the total cost of the glass facade. 
-            By doing this we want to check quantities of glass facade and then add the cost to it. 
-
-            This script could be useful in both the early and later stages of the design process. 
-            Also we believe that with a script like this we could easily reuse it to find for example column and cost, or change it find columns and total volume, and then again use it for LCA                analyses and similar. 
+            
+    A2b: Identify Claim   
+    We are working on building building 2411.  
+         We want to identify the total cost of the glass facade.  
+            By doing this we want to check quantities of glass facade and then add the cost to it.   
+            This script could be useful in both the early and later stages of the design process.   
+            Also we believe that with a script like this we could easily reuse it to find for example column and cost, or change it find columns and total volume, and then again use it for LCA             analyses and similar.   
 
     A2c: Use Case
            How you would check this fact?
