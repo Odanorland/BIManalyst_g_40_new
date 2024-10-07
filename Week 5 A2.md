@@ -33,14 +33,16 @@
 * 02 Cost Estimation is similar to what we will be doing. 
 ### Produce a BPMN drawing for your chosen use case.
 
-## A2d: ... 
+## A2d: In the BPMN diagram is highlighted in red where the script is needed. 
 
 ## A2e: Tool Idea 
 ### Describe in words your idea for your own OpenBIM ifcOpenShell Tool in Python: 
 * The idea for this ifcOpenShell Tool is that the user can in a short time get the total price of the chosen facade type for the building. This can be used to compare different options. 
 ### What is the business and societal value of your tool?
 * The business value of this tool is that they can make informed desicion about materials / types for their projects, in this case facade type.
-* The societal value can be that clients can get buildings that better alligns with their requirements. 
+* The societal value can be that clients can get buildings that better alligns with their requirements.
+ ![BPMN](https://raw.githubusercontent.com/Odanorland/BIManalyst_g_40_new/refs/heads/main/Diagram.svg)
+
 
 
 
