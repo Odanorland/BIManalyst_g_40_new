@@ -22,8 +22,8 @@
 ### How you would check this fact?
    * We will get the scipt to get the total area of glass facade from the model. We will then give the price as an imput. We will also try to see if we can make the script read the                  report and find the price itself, but this would be useless if we on another project have a model but not a report attached. 
 ### When would this claim need to be checked?
-   * This fact could be checked at an early stage because this is the time when it`s easiest to do changes. For example we check the total procing of the glass facade and figure out                 the type chosen is to ecxpensive so it should be changed for another one, or the area with fglass facade should be decreased. It could also be used at any point of the project, depending on    what it should be used for (LCA, process plan etc) . 
-What information does this claim rely on?
+   * This fact could be checked at an early stage because this is the time when it`s easiest to do changes. For example we check the total procing of the glass facade and figure out                 the type chosen is to ecxpensive so it should be changed for another one, or the area with fglass facade should be decreased. It could also be used at any point of the project, depending       on what it should be used for (LCA, process plan etc) .
+### What information does this claim rely on?
 The area of each glass wall, and then added together to get the total area. And then the chosen facade type, and the unit price (per m2) for this type. 
 What phase? planning, design, build or operation.
 The cost would mainly be relevant in the planning and design phase, to make desicions. But also during building phase to track budgets. Quantities in itself is relevant for all                 phases. For example build when making a schedule. 
