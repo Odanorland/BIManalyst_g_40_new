@@ -10,7 +10,7 @@ A2:
             Analyst 
 
             
-    A2b: Identify Claim   
+    ## A2b: Identify Claim   
     We are working on building building 2411.  
          We want to identify the total cost of the glass facade.  
             By doing this we want to check quantities of glass facade and then add the cost to it.   
