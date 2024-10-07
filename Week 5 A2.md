@@ -40,7 +40,7 @@ The idea for this ifcOpenShell Tool is that the user can in a short time get the
 What is the business and societal value of your tool?
 The business value of this tool is that they can make informed desicion about materials / types for their projects, in this case facade type. The societal value can be that clients can get buildings that better alligns with their requirements. 
 
-![alt text](https://fwtbbmf399.execute-api.us-east-1.amazonaws.com/Prod/svg?source=https://raw.githubusercontent.com/vitalibo/markdown-inline-svg/master/readme.md&name=sample.svg)
+![alt text](https://fwtbbmf399.execute-api.us-east-1.amazonaws.com/Prod/svg/source=https://raw.githubusercontent.com/Odanorland/BIManalyst_g_40_new/refs/heads/main/Diagram.svg/master/readme.md&name=BPMN-drawing.svg)
 
 
 A2f: Information requirements
