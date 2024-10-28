@@ -15,7 +15,8 @@ from collections import defaultdict
 def Cost_Facade(model):
     proxy_type_count = defaultdict(int)
     element_count = defaultdict(int)
-    
+facade=model.by_type("IfcWalls"
+
     # Iterate over all instances of IfcBuildingElementProxyType in the model
     for element_type in model.by_type("IfcBuildingElementProxyType"):
         type_name = element_type.Name if element_type.Name else "Unnamed"
@@ -35,3 +36,42 @@ def Cost_Facade(model):
     result = print(f"\nFinal calculated sum of counts: {final_sum}")
 
     return result
+
+import ifcopenshell
+
+
+def checkRule(model):
+    doors = model.by_type('IfcDoor')
+
+    result = f"Doors: {len(doors)}"
+
+    return result
+
+
+
+
+import ifcopenshell
+
+# Load the IFC model
+file_path = 'C:\Users\47480\Documents\DTU\41934 Advanced BIM\A3' 
+ifc_model = ifcopenshell.open(file_path)
+
+# Define the type name to filter facade walls
+target_type_name = "Basic Wall:Facade 400 mm"
+
+# Retrieve elements of type "IfcWall" and filter based on the type name property
+facade_walls = []
+for wall in ifc_model.by_type("IfcWall"):
+    # Check if the wall has a "type" property and if it matches our target
+    if wall.ObjectType == target_type_name:
+        facade_walls.append(wall)
+
+# Calculate the total area of the facade walls
+total_area = 0.0
+for wall in facade_walls:
+    # Get wall's area from geometry or other properties (This assumes areas are accessible)
+    area_property = wall.get_info()['OverallWidth'] * wall.get_info()['OverallHeight']  # Adjust based on actual property names
+    total_area += area_property
+
+print(f"Total facade area for '{target_type_name}': {total_area} square meters")
+
