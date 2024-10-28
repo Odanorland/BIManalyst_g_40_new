@@ -1,1 +1,29 @@
+import ifcopenshell
 
+model = ifcopenshell.open('C:\Users\47480\Documents\DTU\41934 Advanced BIM\A3\CES_BLD_24_11_ARC.ifc')
+
+#get all facade types
+for wall_type in model.by_type("IfcWallType"):
+    print("The wall type element is", wall_type)
+    print("The name of the wall type is", wall_type.Name)
+
+#get properties
+import ifcopenshell.util.element
+
+wall = model.by_type("IfcWall")[0]
+wall_type = ifcopenshell.util.element.get_type(wall)
+
+# Get all properties and quantities as a dictionary
+# returns {"Pset_WallCommon": {"id": 123, "FireRating": "2HR", ...}}
+psets = ifcopenshell.util.element.get_psets(wall_type)
+print(psets)
+
+# Get all properties and quantities of the wall, including inherited type properties
+psets = ifcopenshell.util.element.get_psets(wall)
+print(psets)
+
+# Get only properties and not quantities
+print(ifcopenshell.util.element.get_psets(wall, psets_only=True))
+
+# Get only quantities and not properties
+print(ifcopenshell.util.element.get_psets(wall, qtos_only=True))
