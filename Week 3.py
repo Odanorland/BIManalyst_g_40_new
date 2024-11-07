@@ -43,3 +43,4 @@ for obj in bpy.context.scene.objects:
 
 # Output the results
 print(f"Columns outside the given dimensions: {invalid_columns}")
+
