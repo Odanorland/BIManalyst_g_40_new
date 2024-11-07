@@ -1,0 +1,77 @@
+import ifcopenshell
+
+def checkRule(model):
+    facade = model.by_type('IfcWindow')
+
+    result = f"Windows: {len(windows)}"
+
+    return result
+
+
+
+
+from collections import defaultdict
+
+def Cost_Facade(model):
+    proxy_type_count = defaultdict(int)
+    element_count = defaultdict(int)
+facade=model.by_type("IfcWalls"
+
+    # Iterate over all instances of IfcBuildingElementProxyType in the model
+    for element_type in model.by_type("IfcBuildingElementProxyType"):
+        type_name = element_type.Name if element_type.Name else "Unnamed"
+        if "" in type_name:
+            proxy_type_count[type_name] += 1
+            # Count elements associated with this type
+            for element in model.by_type("IfcBuildingElementProxy"):
+                if element.IsTypedBy and element.IsTypedBy[0].RelatingType == element_type:
+                    element_count[type_name] += 1
+    
+    # Calculate the final sum
+    final_sum = 0
+    for type_name, count in element_count.items():
+        multiplier = 6 if "enkelt" in type_name.lower() else 12
+        final_sum += count * multiplier
+    
+    result = print(f"\nFinal calculated sum of counts: {final_sum}")
+
+    return result
+
+import ifcopenshell
+
+
+def checkRule(model):
+    doors = model.by_type('IfcDoor')
+
+    result = f"Doors: {len(doors)}"
+
+    return result
+
+
+
+
+import ifcopenshell
+
+# Load the IFC model
+file_path = 'C:\Users\47480\Documents\DTU\41934 Advanced BIM\A3' 
+ifc_model = ifcopenshell.open(file_path)
+
+# Define the type name to filter facade walls
+target_type_name = "Basic Wall:Facade 400 mm"
+
+# Retrieve elements of type "IfcWall" and filter based on the type name property
+facade_walls = []
+for wall in ifc_model.by_type("IfcWall"):
+    # Check if the wall has a "type" property and if it matches our target
+    if wall.ObjectType == target_type_name:
+        facade_walls.append(wall)
+
+# Calculate the total area of the facade walls
+total_area = 0.0
+for wall in facade_walls:
+    # Get wall's area from geometry or other properties (This assumes areas are accessible)
+    area_property = wall.get_info()['OverallWidth'] * wall.get_info()['OverallHeight']  # Adjust based on actual property names
+    total_area += area_property
+
+print(f"Total facade area for '{target_type_name}': {total_area} square meters")
+
