@@ -18,7 +18,7 @@
 ### Project managers mainly. 
 
 ## What information is required in the model for your tool to work?
-### * The model must contain doors
-### * All doors must be classified as IfcDoor 
-### * Doors must have a value for height and width in the property sets. 
+* The model must contain doors
+* All doors must be classified as IfcDoor 
+* Doors must have a value for height and width in the property sets. 
 
