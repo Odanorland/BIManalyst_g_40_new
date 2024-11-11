@@ -1,1 +1,34 @@
+{
+  "InformationDeliverySpecification": {
+    "version": "1.0",
+    "requirements": [
+      {
+        "entity": "IfcDoor",
+        "properties": [
+          {
+            "name": "Name",
+            "required": true
+          },
+          {
+            "name": "OverallHeight",
+            "required": true,
+            "type": "IfcPositiveLengthMeasure"
+          },
+          {
+            "name": "OverallWidth",
+            "required": true,
+            "type": "IfcPositiveLengthMeasure"
+          }
+        ]
+      }
+    ],
+    "validation": [
+      {
+        "rule": "IfcDoorCount",
+        "description": "Check for the presence of IfcDoor elements",
+        "condition": "COUNT(IfcDoor) > 0"
+      }
+    ]
+  }
+}
 
