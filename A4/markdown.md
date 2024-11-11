@@ -8,8 +8,15 @@
 * The point of doing this is so that we can sort the information based on element type. 
 
 ```python
+# This gives the door name including an unique identifyer
+door_name = door.Name if hasattr(door, "Name") and door.Name else "Unknown Door"
+
+# this splits the name in two parts based on regex pattern, and accesses the first of them
 base_name = re.split(r":\d+$", door_name)[0]
 ```
+
+## Result 
+Door type name "Main Door: 4567" would be converted to "Main Door"
 
 
 
