@@ -80,7 +80,6 @@ def display_cost_summary(cost_data):
     # Print summary line for totals
     print("-" * 105)
     print(f"{'TOTAL':<60} {total_quantity:<10} {'-':<20} {total_cost:<15.2f}")
-    print(f"{'Average Cost per Door':<60} {'-':<10} {'-':<20} {average_cost_per_door:<15.2f}")
 
 def main():
     # Prompt the user to enter the path to the IFC file
