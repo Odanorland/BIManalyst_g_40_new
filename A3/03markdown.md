@@ -12,8 +12,13 @@
 
 # About the tool 
 ## What Advanced Building Design Stage (A,B,C or D) would your tool be usefuL?
+### For the different phases; Plan, Design, Build and Use, this tool is most useful in the cost estimation during the planning phase. 
 
 ## Which subjects might use it?
+### Project managers mainly. 
 
 ## What information is required in the model for your tool to work?
+### * The model must contain doors
+### * All doors must be classified as IfcDoor 
+### * Doors must have a value for height and width in the property sets. 
 
