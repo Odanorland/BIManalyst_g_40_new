@@ -28,5 +28,6 @@ Inline-style:
 ![Alt text describing the image](C:\Users\47480\Documents\GitHub\BIManalyst_g_40_new\Skjermbilde18.11.PNG)
 
 
-
+Inline-style: 
+![alt text](https://github.com/BIM "Logo Title Text 1")
 
