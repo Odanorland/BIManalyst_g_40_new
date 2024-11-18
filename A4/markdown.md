@@ -15,8 +15,13 @@ door_name = door.Name if hasattr(door, "Name") and door.Name else "Unknown Door"
 base_name = re.split(r":\d+$", door_name)[0]
 ```
 
+Here's our logo (hover to see the title text):
+
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 ## Result 
-Door type name "Main Door: 4567" would be converted to "Main Door"
+Door type name "Ext. Double-Flush out - Glass: Ext. Double-Flush out Glass:1648394" would be converted to "Ext. Double-Flush out - Glass: Ext. Double-Flush out Glass:1648394". 
 
 
 
