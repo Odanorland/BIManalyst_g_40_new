@@ -28,7 +28,11 @@
 
 ## What information is required in the model for your tool to work?
 * The model must contain doors
-* All doors must be classified as IfcDoor 
+* All doors must be classified as IfcDoor
+
+  ```python
+
+```
 
 # Tutorial: Modifying the extracted ifc type name from model
 
