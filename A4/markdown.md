@@ -20,7 +20,7 @@
 * The first thing the program will ask for is the file path. Insert then the file path to where the model is stored on your computer. (It could for example look like this: C:\Users\xxxxx\Documents\DTU\41934 Advanced BIM\A3\CES_BLD_24_11_ARC.ifc). 
 * You should get the data presented in a table.
 
-![alt text](https://github.com/Odanorland/BIManalyst_g_40_new/blob/main/Skjermbilde18.11.PNG "Terminal")
+![alt text](https://github.com/Odanorland/BIManalyst_g_40_new/blob/main/Skjermbilde_terminal.PNG "Terminal")
 
 ```python
 import ifcopenshell
