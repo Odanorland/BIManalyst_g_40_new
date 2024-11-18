@@ -15,19 +15,9 @@ door_name = door.Name if hasattr(door, "Name") and door.Name else "Unknown Door"
 base_name = re.split(r":\d+$", door_name)[0]
 ```
 
-<<<<<<< HEAD
-
-=======
->>>>>>> d89a3f71bdac5b94427625b115ab755c633f1303
 ## Result 
 Door type name "Ext. Double-Flush out - Glass: Ext. Double-Flush out Glass:1648394" would be converted to "Ext. Double-Flush out - Glass: Ext. Double-Flush out Glass". 
 
-Inline-style: 
-![alt text](Skjermbilde18.11.PNG")
-
-![Alt text describing the image](C:\Users\47480\Documents\GitHub\BIManalyst_g_40_new\Skjermbilde18.11.PNG)
-
-
-Inline-style: 
-![alt text](https://github.com/BIM "Logo Title Text 1")
+Result from running the script, after modifying the type name: 
+![alt text](https://github.com/Odanorland/BIManalyst_g_40_new/blob/main/Skjermbilde18.11.PNG "Result")
 
