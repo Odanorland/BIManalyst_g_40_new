@@ -22,6 +22,7 @@
 
 ![alt text](https://github.com/Odanorland/BIManalyst_g_40_new/blob/main/Skjermbilde_terminal.PNG "Terminal")
 
+Snapshot of the script: 
 ```python
 import ifcopenshell
 import re
