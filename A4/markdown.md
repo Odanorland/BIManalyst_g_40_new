@@ -1,7 +1,9 @@
 # Tutorial on modifying the extracted ifc type name from model
 
 * Group 40 - Analyst 
+* Focus area: Built
 * Analyst Level 2: Analyse the property sets of an IFC file in the BlenderBIM GUI and develop a simple Python Script in BlenderBIM using ifcOpenShell.
+
 
 ## Issue 
 * For part A3, we developed a script to extract door quantities from an IFC model and calculate the associated costs. One issue we encountered was that, when extracting door types based on their IFC type name, the script retrieved the door name along with a unique identifier (e.g., Ext. Double-Flush out - Glass: Ext. Double-Flush out Glass: 1648394). This required the user to input a price for each individual door, defeating the purpose of the script, which is to save time. 
