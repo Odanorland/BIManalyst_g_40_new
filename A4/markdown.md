@@ -149,6 +149,10 @@ if __name__ == "__main__":
 
 # Tutorial: Modifying the extracted ifc type name from model
 
+## Summary 
+
+The tutorial shows how to modify the extracted name of an element type so that we get the suitable format to use in the tool. 
+
 ## Issue 
 * For part A3, we developed a script to extract door quantities from an IFC model and calculate the associated costs. One issue we encountered was that, when extracting door types based on their IFC type name, the script retrieved the door name along with a unique identifier (e.g., Ext. Double-Flush out - Glass: Ext. Double-Flush out Glass: 1648394). This required the user to input a price for each individual door, defeating the purpose of the script, which is to save time. 
 
