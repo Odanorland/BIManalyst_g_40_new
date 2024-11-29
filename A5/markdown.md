@@ -1,10 +1,22 @@
 # A5: Reflection
 
-* Group 40 - Analyst 
-* Focus area: Built
-* Analyst Level 2: Analyse the property sets of an IFC file in the BlenderBIM GUI and develop a simple Python Script in BlenderBIM using ifcOpenShell.
+## Your learning experience for the concept you focused on.
+*  Identify your own level at the beginning of this course and where you ended:
+*  What else do you still need to learn?
+*  how you might use OpenBIM in the future?
+ 
+## Your process of developing the tutorial
+* Did the process of the course enable you to answer or define questions that you might need later for thesis?
+* Would you have preferred to have been given less choice in the use cases?
+* Was the number of tools for the course ok - should we have more or less? - if so which ones would you leave out?
 
-## State the problem / claim that your tool is solving.
-*  Quickly determine quantity and cost of elements (ex.doors) in a model 
-## State where you found that problem.
-* In our experience with the 'Advanced Building Design' course, we spent a significant amount of time extracting quantities for tasks like cost calculations and LCA analysis. A tool to streamline this process would be very useful.  
+## (As a group) summary of the feedback you received on your tutorial
+* did the tool address the use case you identified?
+
+## (Individual) Your future for Advanced use of OpenBIM
+* are you likely to use OpenBIM tools in your thesis?
+* are you likely to use OpenBIM tools in your professsional life in the next 10 years?
+
+## (Individual) Wrap up
+* conclude the journey through A1-A5
+
