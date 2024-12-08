@@ -18,16 +18,16 @@
 * **Did the tool address the use case you identified?** The use case was about extracting facades from a model. Our final tool ended up being about doors instead of facades, but it extracted quantities and made a cost overview as planned. We also wantd to see if we could make the script read the report and find the unit price itself, instead of requiring input from the user. We found that the reports didn`t have sufficient information to actually do this.  
 
 ## (Individual) Your future for Advanced use of OpenBIM
-* **Are you likely to use OpenBIM tools in your thesis?** 
- Hugo: Even that I find this topic extremly interesting and I see as a huge learning opportunity, I still haven't put much thought on my what will be my thesis about, so it's possible that it could used, but is not set in stone. 
-Oda: I have looked into a thesis project that involves parametric modelling using Dynamo. I am sure open-BIM could be useful for this, so the answer is yes. 
+* **Are you likely to use OpenBIM tools in your thesis?**  
+*Hugo*: Even that I find this topic extremly interesting and I see as a huge learning opportunity, I still haven't put much thought on my what will be my thesis about, so it's possible that it could used, but is not set in stone.  
+*Oda*: I have looked into a thesis project that involves parametric modelling using Dynamo. I am sure open-BIM could be useful for this, so the answer is yes. 
 
-* **are you likely to use OpenBIM tools in your professsional life in the next 10 years?**
- Hugo: As I see myself working in the industry in an area related to digitalisation, I think it's safe to say that yes, it's very likely that I would be working with these tools in my future professional life.
-Oda: Yes, I can se myself working on building projects with planning and project managing, and then BIM-data handling is very much relevant.
+* **are you likely to use OpenBIM tools in your professsional life in the next 10 years?**  
+*Hugo*: As I see myself working in the industry in an area related to digitalisation, I think it's safe to say that yes, it's very likely that I would be working with these tools in my future professional life.  
+*Oda*: Yes, I can se myself working on building projects with planning and project managing, and then BIM-data handling is very much relevant.
   
 
 ## (Individual) Wrap up
-* **conclude the journey through A1-A5:** 
-Hugo: the journey was long but satisfatory, with a lot of struggle in the middle of the project, and sometimes the feeling that we would never be able to finish and deliver a nice result. But in the and, after a lot of going back and forth and reformulating the case, we were able to create a tool that provides important and accurate information regarding the model, meaning that we achieved our main goal. 
-Oda: For me I was really motivited in the beginning of the course because the content seemed very relevant for my current job and my interests. The work on the assignments was at times frustrating as I felt like issues with setting up and using the needed softwares, as well as the limited coding skills, took away the focus on actually handling the model data and make useful scripts. With that said, I think it is nice that the course is quite "broad" and that we were able to target own interests. The course highligted more areas where BIM is useful, and that is something I`ll bring into future tasks. 
+* **conclude the journey through A1-A5:**  
+*Hugo*: the journey was long but satisfatory, with a lot of struggle in the middle of the project, and sometimes the feeling that we would never be able to finish and deliver a nice result. But in the and, after a lot of going back and forth and reformulating the case, we were able to create a tool that provides important and accurate information regarding the model, meaning that we achieved our main goal.  
+*Oda*: For me I was really motivited in the beginning of the course because the content seemed very relevant for my current job and my interests. The work on the assignments was at times frustrating as I felt like issues with setting up and using the needed softwares, as well as the limited coding skills, took away the focus on actually handling the model data and make useful scripts. With that said, I think it is nice that the course is quite "broad" and that we were able to target own interests. The course highligted more areas where BIM is useful, and that is something I`ll bring into future tasks. 
